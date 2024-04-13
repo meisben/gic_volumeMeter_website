@@ -1,0 +1,3 @@
+[submodule "volumeMeter_website/themes/PaperMod"]
+	path = volumeMeter_website/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
