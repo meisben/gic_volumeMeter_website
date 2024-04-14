@@ -30,14 +30,15 @@ Today we will learn about building a Volume Meter using the MicroBit
 # Check your equipment
 First lets check you have the right equipment, you should find the following items in your box
 
-* 1 x Micro:bit
-* 1 x USB cable
-* 1 x Kitronik robotics board
-* 1 x Battery pack
-* 1 x Sound level indicator (wooden laser cut)
-* 1 x Servo motor and stand
-* 1 x Servo motor arm
-
+| Equipment item                 | Quantity |
+| ------------------------------ | :------: |
+| Micro:bit                      |    1     |
+| USB cable                      |    1     |
+| Kitronik robotics board        |    1     |
+| Battery pack                   |    1     |
+| Volume meter scale (laser cut) |    1     |
+| Servo motor and stand          |    1     |
+| Servo motor arm                |    1     |
 
 [![Pic](/images/equipment.jpg)](/images/equipment.jpg)
 

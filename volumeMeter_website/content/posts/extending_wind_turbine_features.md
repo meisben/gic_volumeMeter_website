@@ -1,9 +1,9 @@
 +++
-title = '🔩 Extending our wind turbine features'
+title = '🔩 Making the motor move'
 date = 2024-01-18T08:05:00Z
 draft = false
 categories = [ "Full day workshop", "Afternoon workshop" ]
-summary = "Adding a microcontroller and electrical circuit to our wind turbine"
+summary = "Understanding and making the motor move"
 +++
 
 ---
@@ -12,32 +12,26 @@ summary = "Adding a microcontroller and electrical circuit to our wind turbine"
 
 ## Aims
 In this part of the activity we will:
-* Add a new custom plate to the wind turbine
-* Add an electrical circuit to the wind turbine
-* Add a voltage divider and understand how it works
+* Look together at how the motor works
+* Write a program to make the motor move
 
 ## Learning outcomes
 
-| Learning outcome |                                             |
-| ---------------- | ------------------------------------------- |
-| Mechatronics     | How to use a screwdriver, screws and nuts   |
-| Hacking          | How to change an original design            |
-| Electronics      | Understand, create and use a voltage divder |
+| Learning outcome |                                                                 |
+| ---------------- | --------------------------------------------------------------- |
+| Mechatronics     | Understand the high level principles of how a servo motor works |
+| Programming      | Write a program to command the motor to move                    |
 ---
 
 # Preperation
 
 ## Equipment required
 
-| Equipment item        | Quantity |
-| --------------------- | :------: |
-| Mind wind turbine kit |    1     |
-| Custom plate          |    1     |
-| Custom wago holders   |    2     |
-| Wago 221 connectors   |    4     |
-| Mini breadboard       |    1     |
-| M4 x 55 screws        |    5     |
-| M4 square nuts        |    5     |
+| Equipment item         | Quantity |
+| ---------------------- | :------: |
+| Assembled volume meter |    1     |
+| Laptop/PC              |    1     |
+
 
 ## Tools required
 
@@ -47,73 +41,33 @@ In this part of the activity we will:
 
 ---
 
-# What we're going to make
+# How is the motor moving
 
-The first wind turbine we built was great, but it was also a bit limited. 
+This video shows how servo motors work! - If you’re interested it’s well worth a quick watch. 
+*(You can watch it now or later on - up to you!)*
 
-We want to add a microcontroller to it. Our aim is to automatically measure it's speed with the computer.
-
-To do that we're going to have to make some more space to attach and electronic circuit and a microcontroller.
-
-We're going to do this by hacking the original kit.
-
-The custom wind turbine we're giong to make is shown below (click the play button to show the model)
-
-{{< sketchfab 30f6d3800345494e9ea322e88f7cad75>}}
+{{< youtube 1WnGv-DPexc >}}
 
 ---
 
-# Hardware changes
+# Activity
 
-## Dissasembly of the mind wind turbine
+## A simple program to make the motor move
+We want to use the buttons to move the motor into different positions. To do this lets write a program
 
-### Remove the blades and rotor from the wind turbine
+* Write the program below
+* Download it to the micro:bit
+* Check that the motor is moving correctly
 
-[![Equipment](/images/extending_wind_turbine_features/disassembly_rotor_v1.png)](/images/extending_wind_turbine_features/disassembly_rotor_v1.png)
+|                                 Blocks                                 |                                 Python                                 |
+| :--------------------------------------------------------------------: | :--------------------------------------------------------------------: |
+| [![Pic](/images/move_motor_blocks.png)](/images/move_motor_blocks.png) | [![Pic](/images/move_motor_python.png)](/images/move_motor_python.png) |
 
-### Remove the M4 screws and nuts
+>**Important Questions**
+>* *What do you observe?*
+>* *Which way is the motor rotating when you push the buttons?*
 
-The M4 screws (4mm in diameter) are the largest screws. Remove all 5 of these, and the corresponding nuts from the assembly. 
-
-Place them carefully back into the bag they came in
-
-[![Equipment](/images/extending_wind_turbine_features/disassembly_pipe_clip_v1.png)](/images/extending_wind_turbine_features/disassembly_pipe_clip_v1.png)
-
-[![Equipment](/images/extending_wind_turbine_features/disassembly_turbine_v1.png)](/images/extending_wind_turbine_features/disassembly_turbine_v1.png)
-
-## Assembly of the custom wind turbine
-
-### Make sure you've got all of the correct parts
-
-[![Equipment](/images/extending_wind_turbine_features/extending_wind_turbine_equipment_v1.1.png)](/images/extending_wind_turbine_features/extending_wind_turbine_equipment_v1.1.png)
-
-
-### Assembly
-
-Assemble the parts together with a screwdriver (Phillips) as shown
-
-[![Equipment](/images/extending_wind_turbine_features/mech_assembly_v1.1.png)](/images/extending_wind_turbine_features/mech_assembly_v1.1.png)
-
-
-### Almost finished assembly
-
-You should end up with a part that looks like this!
-
-
-[![Equipment](/images/extending_wind_turbine_features/finished_mech_assembly_v1.1.png)](/images/extending_wind_turbine_features/finished_mech_assembly_v1.1.png)
-
-
-### Finished assembly
-
-Add the microbit holder to complete it (if not already attached)
-
-Be careful with it (it clips into the assembly)
-
-
-[![Equipment](/images/extending_wind_turbine_features/final_mech_assembly_v1.1.png)](/images/extending_wind_turbine_features/final_mech_assembly_v1.1.png)
-
-
-It should end up looking like this
-
-
-[![Equipment](/images/extending_wind_turbine_features/finished_and_complete_assembly_v1.1.png)](/images/extending_wind_turbine_features/finished_and_complete_assembly_v1.1.png)
+{{< details "**👉🏾 Answer**" >}}
+1. When you push the button for zero degrees it should move clockwise
+2. When you push the button for 180 degrees it should move anticlockwise
+{{< /details >}}
