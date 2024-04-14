@@ -32,14 +32,14 @@ summary = "A short introduction to the BBC microbit microcontroller"
 
 The features highlighted in the picture are:
 
-1. Go to the Home Screen to start a new project or open an existing project
-2. Simulator shows what your program will look like when running on a micro:bit
-3. Hide or Show the simulator pane
-4. Program in either Blocks or JavaScript
-5. Programming Workspace where you will build you program
-6. Blocks Toolbox
-7. Download your program to the micro:bit
-8. Name your project and Save it on your computer
+1. **Go to the Home Screen** to start a new project or open an existing project
+2. **Simulator** shows what your program will look like when running on a micro:bit
+3. **Hide or Show the simulator pane**
+4. **Program** in either Blocks or JavaScript
+5. **Programming Workspace** where you will build you program
+6. **Blocks Toolbox**
+7. **Download** your program to the micro:bit
+8. **Name** your project and Save it on your computer
 
 
 ### How to change the programming language (python/blocks)
