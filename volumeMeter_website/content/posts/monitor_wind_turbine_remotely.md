@@ -1,5 +1,5 @@
 +++
-title = '📡 Monitor the wind turbine remotely'
+title = '🔉 Monitor the wind turbine remotely'
 date = 2024-01-16T08:05:00Z
 draft = false
 categories = [ "Full day workshop", "Afternoon workshop" ]

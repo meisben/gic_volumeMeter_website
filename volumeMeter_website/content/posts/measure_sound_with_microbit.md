@@ -1,5 +1,5 @@
 +++
-title = '🔉 How do we measure a sound?'
+title = '📈 How do we measure a sound?'
 date = 2024-01-20T08:05:00Z
 draft = false
 categories = [ "Full day workshop" ]
