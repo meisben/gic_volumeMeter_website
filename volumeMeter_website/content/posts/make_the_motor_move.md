@@ -32,13 +32,6 @@ In this part of the activity we will:
 | Assembled volume meter |    1     |
 | Laptop/PC              |    1     |
 
-
-## Tools required
-
-| Tool                           | Quantity |
-| ------------------------------ | :------: |
-| Screwdriver (Philips and flat) |    1     |
-
 ---
 
 # How is the motor moving
