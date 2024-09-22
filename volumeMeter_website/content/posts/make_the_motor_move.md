@@ -45,13 +45,21 @@ This video shows how servo motors work! - If you’re interested it’s well wor
 
 # Activity
 
+>**Note**
+>* You will need to add the kitronik-robotics-board [extension](https://microbit.org/get-started/first-steps/set-up/) to this code project 
+>* An extension is a code library that allows you to use additional functionality (such as controlling the robotics board)
+
+[![Pic](/images/toolbox_category.png)](/images/toolbox_category.png)
+[![Pic](/images/robotics_extension.png)](/images/robotics_extension.png)
+
+
 ## A simple program to make the motor move
 We want to use the buttons to move the motor into different positions. To do this lets write a program
 
 * Write the program below
 * Download it to the micro:bit
 * Check that the motor is moving correctly
-
+  
 |                                 Blocks                                 |                                 Python                                 |
 | :--------------------------------------------------------------------: | :--------------------------------------------------------------------: |
 | [![Pic](/images/move_motor_blocks.png)](/images/move_motor_blocks.png) | [![Pic](/images/move_motor_python.png)](/images/move_motor_python.png) |
